@@ -105,9 +105,9 @@ img {
 }
 
 header {
-  width:270px;
+  /* width:270px;
   float:left;
-  position:fixed;
+  position:fixed; */
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -169,10 +169,17 @@ header ul a strong {
   color:#222;
 }
 
-article, div.pagination {
-  width:500px;
-  float:right;
-  padding-bottom:50px;
+article {
+  padding:20px 0;
+  margin:0 0 20px;
+
+  .content a {
+    color: #267;
+  }
+  .content a:hover {
+    color: #39b;
+    text-decoration:underline;
+  }
 }
 
 small {
@@ -187,9 +194,11 @@ hr {
 }
 
 footer {
+  /*
   width:270px;
   float:left;
   position:fixed;
+  */
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
@@ -215,10 +224,12 @@ footer {
     padding-right:320px;
   }
 
+  /*
   article {
     padding:20px 0;
     margin:0 0 20px;
   }
+  */
 
   header a small {
     display:inline;
