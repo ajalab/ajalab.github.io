@@ -230,3 +230,5 @@ mod tests {
 
 - [Aho Corasick 法 - naoyaのはてなダイアリー](http://d.hatena.ne.jp/naoya/20090405/aho_corasick)
 - [Spaghetti Source - 複数パターン検索 (Aho-Corasick)](http://www.prefield.com/algorithm/string/aho_corasick.html)
+- [Rust でつくる VM 型の Brainf\\\\k の処理系 \| Cry for the Moon](https://mozami.me/2017/04/19/rust_bf_implementation.html)
+
