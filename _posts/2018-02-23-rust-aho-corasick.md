@@ -1,6 +1,8 @@
 ---
 layout: post
 title: RustでAho-Corasickの実装
+tags:
+  - Rust
 ---
 
 Rustに入門しました。アルゴリズム実装の手習いも兼ねて、複数パターンマッチングのための[Aho-Corasick法](https://ja.wikipedia.org/wiki/%E3%82%A8%E3%82%A4%E3%83%9B%E2%80%93%E3%82%B3%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E6%B3%95)を実装します。[http://www.cs.uku.fi/~kilpelai/BSA05/lectures/slides04.pdf](http://www.cs.uku.fi/~kilpelai/BSA05/lectures/slides04.pdf) を見ながら書きます。
