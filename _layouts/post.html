@@ -2,12 +2,5 @@
 layout: default
 ---
 
-<article>
-  <h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
-  <p class="author">
-  <span class="date">{{ page.date | date: '%Y-%m-%d' }}</span>
-  </p>
-  <div class="content">
-    {{ content }}
-  </div>
-</article>
+{% include article.html post=page %}
+

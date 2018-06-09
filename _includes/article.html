@@ -1,0 +1,11 @@
+<article>
+  <h1><a href="{{ include.post.url }}">{{ include.post.title }}</a></h1>
+  <p class="author">
+    {{ include.post.tags }}
+    |
+    <span class="date">{{ include.post.date | date: '%Y-%m-%d' }}</span>
+  </p>
+  <div class="content">
+    {{ include.post.content }}
+  </div>
+</article>
