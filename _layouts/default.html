@@ -21,9 +21,12 @@
     <div class="wrapper">
       <header>
         <h1><a href="/">{{ site.title | default: site.github.repository_name }}</a></h1>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <!--<p>{{ site.description | default: site.github.project_tagline }}</p>-->
 
-        <p class="view"><a href="{{ site.github.owner_url }}">GitHub</a></p>
+        <ul>
+          <li><a href="{{ site.github.owner_url }}">GitHub</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
       </header>
 
       {{ content  }}
