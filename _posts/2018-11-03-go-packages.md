@@ -6,9 +6,9 @@ tags:
 ---
 
 ## 概要
-Go 1.11のリリースから、パッケージ解析等の目的でGoのパッケージをロードするためのライブラリ[`x/tools/go/packages`](https://godoc.org/golang.org/x/tools/go/packages)がGo Toolsに追加された（[リリースノート](https://golang.org/doc/go1.11#gopackages)）。このライブラリはGo 1.11から導入された[moduleシステム](https://golang.org/cmd/go/#hdr-Modules__module_versions__and_more)に対応している。まだ標準ライブラリには入っていないが、これはmodules非対応の[`go/build`](https://golang.org/pkg/go/build/)を代替するものである。
+Go 1.11のリリースから、パッケージ解析等の目的でGoのパッケージをロードするためのライブラリ[`x/tools/go/packages`](https://godoc.org/golang.org/x/tools/go/packages)がGo Toolsに追加された（[リリースノート](https://golang.org/doc/go1.11#gopackages)）。このライブラリはGo 1.11から導入された[modulesシステム](https://golang.org/cmd/go/#hdr-Modules__module_versions__and_more)をサポートしている。まだ標準ライブラリには入っていないが、これはmodules非対応の[`go/build`](https://golang.org/pkg/go/build/)を代替するものである。
 
-ところで、Go Toolsにはパッケージ読み込みのためのライブラリ（[`x/tools/go/loader`](https://godoc.org/golang.org/x/tools/go/loader)）が既に存在する。公式のアナウンス等は無くこのパッケージの立ち位置は不明瞭だが、`x/tools/go/loader`に関する[issueコメント](https://github.com/golang/go/issues/14120#issuecomment-383994980)や、`loader.Program`を使用する`ssautil.CreateProgram`が[deprecatedになった](https://github.com/golang/tools/commit/5b5e9c877a65dcf1f386adf9542d43cd797cc43a)ことから、今後`x/tools/go/loader`は使わず`x/tools/go/packages`を使うべきだろう。
+ところで、Go Toolsにはパッケージ読み込みのためのライブラリ（[`x/tools/go/loader`](https://godoc.org/golang.org/x/tools/go/loader)）が既に存在する。公式のアナウンス等は無くこのパッケージの立ち位置は不明瞭だが、`x/tools/go/loader`に関する[issueコメント](https://github.com/golang/go/issues/14120#issuecomment-383994980)や、`loader.Program`を使用する`ssautil.CreateProgram`が[deprecatedになった](https://github.com/golang/tools/commit/5b5e9c877a65dcf1f386adf9542d43cd797cc43a)ことから、今後は`x/tools/go/loader`ではなく`x/tools/go/packages`を使うべきだろう。
 
 ## 使い方
 
