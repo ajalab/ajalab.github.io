@@ -1,8 +1,8 @@
 <article>
   <h1><a href="{{ include.post.url }}">{{ include.post.title }}</a></h1>
   <p class="author">
-    {{ include.post.tags | join: ', '}} |
-    <span class="date">{{ include.post.date | date: '%Y-%m-%d' }}</span>
+    <span class="date">{{ include.post.date | date: '%Y-%m-%d' }}</span> |
+    {{ include.post.tags | join: ', '}}
   </p>
   <div class="content">
     {{ include.post.content }}
