@@ -1,2 +1,8 @@
 theme: jekyll-theme-minimal
 paginate: 5
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      comments: true
