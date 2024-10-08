@@ -1,0 +1,136 @@
+body {
+    font-family: ui-sans-serif;
+}
+
+code {
+    background-color: #eeeeee;
+    box-sizing: border-box;
+    padding-top: 0.2em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    padding-bottom: 0.2em;
+    font-size: 0.9em;
+    font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Ubuntu Mono", "Roboto Mono", Menlo, Monaco, Consolas, monospace;
+}
+
+table {
+    border-collapse: collapse;
+    margin-block-start: 1.5em;
+    margin-block-end: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    border-bottom: solid 1px #000;
+}
+
+td {
+    padding-top: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.4em;
+}
+
+.wrapper {
+    max-width: 750px;
+    margin-block-start: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (min-width: 750px) {
+    .wrapper {
+        max-width: 750px;
+    }
+}
+
+.site-header {
+    display: flex;
+}
+
+.site-header a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.site-header-logo {
+    flex: 1 1 auto;
+}
+
+.site-header-nav {
+    flex: 0 0 auto;
+    text-align: right;
+}
+
+a {
+    color: #1768bf;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.list-header {
+    margin-block-start: 2.5em;
+    margin-block-end: 2.5em;
+}
+
+.list-header h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 2em;
+}
+
+.list-item-article {
+    margin-block-end: 1.5em;
+}
+
+.list-item-header h2 {
+    font-weight: normal;
+    font-size: 1.2em;
+    margin-block-start: 0;
+    margin-block-end: 0.3em;
+}
+
+.list-item-header time {
+    font-size: 0.9em;
+    font-weight: 300;
+    color: #888;
+}
+
+.single-header {
+    margin-block-start: 2.5em;
+    margin-block-end: 2.5em;
+}
+
+.single-header h1 {
+    margin-block-start: 0;
+    margin-block-end: 0.3em;
+    font-size: 2em;
+}
+
+.single-header time {
+    font-size: 0.9em;
+    font-weight: 300;
+    color: #888;
+}
+
+.single-article {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.single-article h2,
+.single-article h3,
+.single-article h4,
+.single-article h5,
+.single-article h6 {
+    margin-block-start: 1.2em;
+    margin-block-end: 0.7em;
+    font-weight: 500;
+}

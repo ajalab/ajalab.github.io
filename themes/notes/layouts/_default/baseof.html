@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>{{ .Title }} - {{ .Site.Title }}</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="site-header">
+            <div class="site-header-logo">
+                <a href="/">{{ .Site.Title }}</a>
+            </div>
+            <nav class="site-header-nav">
+                <a href='{{ref . "about"}}'>About</a>
+            </nav>
+        </header>
+
+        <main role="main">
+            {{- block "main" . }}{{- end }}
+        </main>
+    </div>
+</body>
+
+</html>

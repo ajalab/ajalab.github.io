@@ -1,0 +1,4 @@
+baseURL = 'https://ajalab.github.io/'
+languageCode = 'ja-jp'
+title = 'ajalab.github.io'
+theme = 'notes'

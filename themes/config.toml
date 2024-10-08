@@ -1,0 +1,4 @@
+baseURL = 'https://kokika.to/'
+languageCode = 'ja-jp'
+title = 'kokika.to'
+theme = 'notes'

@@ -1,0 +1,18 @@
+{{ define "main" }}
+<article>
+    <header class="list-header">
+        <h1>{{ .Title }}</h1>
+    </header>
+    {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+    {{ range $pages.ByDate.Reverse }}
+    <article class="list-item-article">
+        <header class="list-item-header">
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <div>
+                <time datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format "2006-01-02" }}</time>
+            </div>
+        </header>
+    </article>
+    {{ end }}
+</article>
+{{ end }}
