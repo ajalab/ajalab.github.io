@@ -97,6 +97,7 @@ a:hover {
     margin-block-start: 0;
     margin-block-end: 0;
     font-size: 2em;
+    font-weight: 500;
 }
 
 .list-item-article {
@@ -136,6 +137,10 @@ a:hover {
 .single-article {
     font-size: 15px;
     line-height: 1.6;
+}
+
+.single-article h1 {
+    font-weight: 500;
 }
 
 .single-article h2,
