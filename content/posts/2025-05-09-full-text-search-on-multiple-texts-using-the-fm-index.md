@@ -83,7 +83,7 @@ The data size and construction/query efficiency depend on the implementation of 
 
 - Size: $O(n \log\sigma)$
 - Construction time: $O(n \log\sigma)$
-- Computation time of $\mathrm{rank}$ and $\mathrm{select}: $O(\log\sigma)$
+- Computation time of $\mathrm{rank}$ and $\mathrm{select}$: $O(\log\sigma)$
 
 #### Character Counts ($C$)
 
