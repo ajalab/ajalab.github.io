@@ -152,3 +152,7 @@ a:hover {
     margin-block-end: 1em;
     font-weight: 500;
 }
+
+.footnotes {
+    font-size: 13px;
+}
