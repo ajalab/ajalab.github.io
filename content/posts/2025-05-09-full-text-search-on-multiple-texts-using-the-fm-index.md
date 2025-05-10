@@ -439,6 +439,10 @@ We introduced how fast string searching across multiple texts can be achieved us
 The content presented is based on the cited literature, but it also includes some ideas that the author conceived during the implementation of the FM-index.
 There might exist more standard and efficient techniques that the author was not aware of[^4].
 
+## Links
+
+- [FM-indexを用いた複数テキストの全文検索](https://zenn.dev/ajalab/articles/fm-index-for-multiple-texts) - Japanese translation
+
 [^1]: Ge Nong, Sen Zhang, & Wai Hong Chan. (2011). Two Efficient Algorithms for Linear Time Suffix Array Construction. IEEE Transactions on Computers, 60(10), 1471–1484. https://doi.org/10.1109/TC.2010.188
 
 [^2]: Arroyuelo, A., Claude, F., Maneth, S., Mäkinen, V., Navarro, G., Nguyen, K., Siren, J., & Välimäki, N. (2011). Fast In-Memory XPath Search over Compressed Text and Tree Indexes (No. arXiv:0907.2089). arXiv. https://doi.org/10.48550/arXiv.0907.2089
