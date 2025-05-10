@@ -2,6 +2,19 @@ body {
     font-family: ui-sans-serif;
 }
 
+pre {
+    background-color: #eeeeee;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Ubuntu Mono", "Roboto Mono", Menlo, Monaco, Consolas, monospace;
+}
+
+pre code {
+    font-size: 1em;
+}
+
 code {
     background-color: #eeeeee;
     box-sizing: border-box;
