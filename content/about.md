@@ -16,5 +16,8 @@ Koki Kato is a software engineer in Japan.
 
 ## Links
 
+- [Blog](https://ajalab.github.io/) (en)
+- [Zenn](https://zenn.dev/ajalab) (ja) about technical things
+- [しずかなインターネット](https://sizu.me/kokik) (ja) about personal things
 - [GitHub](https://github.com/ajalab)
 - [LinkedIn](https://www.linkedin.com/in/koki-kato/)
