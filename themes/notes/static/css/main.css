@@ -9,6 +9,7 @@ pre {
     padding-right: 1em;
     padding-bottom: 1em;
     font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Ubuntu Mono", "Roboto Mono", Menlo, Monaco, Consolas, monospace;
+    white-space: pre-wrap;
 }
 
 pre code {
