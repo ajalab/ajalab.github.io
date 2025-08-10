@@ -27,6 +27,13 @@ code {
     font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Ubuntu Mono", "Roboto Mono", Menlo, Monaco, Consolas, monospace;
 }
 
+blockquote {
+  margin: 2em 0;
+  padding: 1em 2em;
+  border-left: 3px solid #666;
+  font-style: italic;
+}
+
 table {
     border-collapse: collapse;
     margin-block-start: 1.5em;
