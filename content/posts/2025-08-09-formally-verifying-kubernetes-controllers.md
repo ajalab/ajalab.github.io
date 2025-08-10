@@ -5,6 +5,8 @@ draft: false
 katex: true
 ---
 
+_INFO: [Japanese version](https://zenn.dev/ajalab/articles/formally-verifying-kubernetes-controllers) is available in zenn.dev._
+
 A [Kubernetes Operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/) is an extension pattern that enables users to build custom [controllers](https://kubernetes.io/docs/concepts/architecture/controller/) for managing applications and clusters.
 Because operators often need to manipulate [custom resources](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) asynchronously and coordinate with external systems, implementing them requires a careful and deliberate approach.
 
