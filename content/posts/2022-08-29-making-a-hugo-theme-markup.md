@@ -1,6 +1,7 @@
 ---
 title: "Making a Hugo blog theme - Markup"
 date: 2022-08-29T23:10:00+09:00
+draft: true
 ---
 
 This is a note on what I learned, what I thought, and what decisions I made in creating a new [Hugo](https://gohugo.io/) theme for my new blog.
