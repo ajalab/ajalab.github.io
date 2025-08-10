@@ -1,5 +1,5 @@
 ---
-title: "Formally verifying Kubernetes controllers"
+title: "Formally Verifying Kubernetes Controllers"
 date: 2025-08-10T15:00:00+09:00
 draft: false
 katex: true
