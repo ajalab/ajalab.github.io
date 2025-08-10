@@ -1,7 +1,7 @@
 ---
 title: "Gradle Lockfile for Multi-Project Builds"
 date: 2025-08-10T21:00:00+09:00
-draft: true
+draft: false
 ---
 
 _INFO: [Japanese version](https://zenn.dev/ajalab/articles/formally-verifying-kubernetes-controllers) is available in zenn.dev._
