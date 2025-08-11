@@ -4,7 +4,7 @@ date: 2025-08-10T21:00:00+09:00
 draft: false
 ---
 
-_INFO: [Japanese version](https://zenn.dev/ajalab/articles/formally-verifying-kubernetes-controllers) is available in zenn.dev._
+_INFO: [Japanese version](https://zenn.dev/ajalab/articles/gradle-lockfile-for-multi-project-builds) is available in zenn.dev._
 
 ----
 
