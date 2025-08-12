@@ -1,6 +1,7 @@
 ---
 title: "About"
 date: 2022-08-20T12:20:36+09:00
+datetime: false
 ---
 
 - X: [@ajalab](https://x.com/ajalab)
