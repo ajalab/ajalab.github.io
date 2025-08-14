@@ -115,7 +115,7 @@ Typically, Kubernetes clusters store objects in [etcd](https://etcd.io/), which 
 
 <figure>
   <img
-    src="/images/2025-08-14-journal-distributed-log-replication-behind-aws/dynamodb.drawio.png"
+    src="/images/2025-08-14-journal-distributed-log-replication-behind-aws/eks.drawio.png"
     alt="Architecture of Kubernetes Clusters in EKS"
   />
   <figcaption>Architecture of Kubernetes clusters in EKS.</figcaption>
