@@ -7,10 +7,10 @@
     {{ range $pages.ByDate.Reverse }}
     <article class="list-item-article">
         <header class="list-item-header">
-            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-            <div>
+            <div class="list-item-header-date">
                 <time datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format "2006-01-02" }}</time>
             </div>
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
         </header>
     </article>
     {{ end }}
