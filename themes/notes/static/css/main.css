@@ -28,10 +28,10 @@ code {
 }
 
 blockquote {
-  margin: 2em 0;
-  padding: 1em 2em;
-  border-left: 3px solid #666;
-  font-style: italic;
+    margin: 2em 0;
+    padding: 1em 2em;
+    border-left: 3px solid #666;
+    font-style: italic;
 }
 
 table {
@@ -51,6 +51,20 @@ td {
     padding-left: 1em;
     padding-right: 1em;
     padding-bottom: 0.4em;
+}
+
+figure {
+    margin-block-start: 1.5em;
+    margin-block-end: 1.5em;
+}
+
+figure figcaption {
+    color: #666;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
 }
 
 .wrapper {
@@ -122,7 +136,7 @@ a:hover {
 .list-item-header time {
     font-size: 0.9em;
     font-weight: 300;
-    color: #888;
+    color: #666;
 }
 
 .single-header {
