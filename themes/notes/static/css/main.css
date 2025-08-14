@@ -63,6 +63,36 @@ figure img {
     height: auto;
 }
 
+.footnote-ref::before {
+    content: "[";
+}
+
+.footnote-ref::after {
+    content: "]";
+}
+
+.footnotes ol {
+    list-style-type: none;
+    counter-reset: footnote-counter;
+    padding-left: 0;
+}
+
+.footnotes li {
+    counter-increment: footnote-counter;
+    padding-left: 3rem;
+    position: relative;
+}
+
+.footnotes li::before {
+    content: "[" counter(footnote-counter) "]";
+    position: absolute;
+    width: 2.5rem;
+    text-align: right;
+    left: 0;
+    top: 0;
+    margin-right: 0.5rem;
+}
+
 .wrapper {
     max-width: 750px;
     margin-block-start: 20px;
