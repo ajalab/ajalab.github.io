@@ -5,6 +5,10 @@ draft: true
 katex: true
 ---
 
+_INFO: [Japanese version](https://zenn.dev/ajalab/articles/journal-distributed-log-replication-behind-aws) is available in zenn.dev._
+
+----
+
 Most practical DBMSs implement a _write-ahead log_ (_WAL_).
 A WAL is an append-only structure optimized for fast writes, ensuring durability by recording every change to disk before applying it to the main data store such as a B-Tree or LSM-Tree.
 It is also frequently used for replicating data to other DBMS instances—distributing workloads to reduce latency or replicating data to databases in other regions to improve durability and availability.
