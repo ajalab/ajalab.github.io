@@ -1,7 +1,7 @@
 ---
 title: "Journal: Distributed Log Replication behind AWS"
 date: 2025-08-14T10:00:00+09:00
-draft: true
+draft: false
 katex: true
 ---
 
