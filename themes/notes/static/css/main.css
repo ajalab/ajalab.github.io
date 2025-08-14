@@ -12,10 +12,6 @@ pre {
     overflow-x: auto;
 }
 
-pre code {
-    font-size: 1em;
-}
-
 code {
     background-color: #eeeeee;
     box-sizing: border-box;
