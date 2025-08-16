@@ -154,7 +154,7 @@ a:hover {
 
 .list-item-header {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
 .list-item-header h2 {
@@ -170,7 +170,7 @@ a:hover {
 }
 
 .list-item-header-date time {
-    font-size: 1em;
+    font-size: 0.7em;
     font-weight: 300;
     color: #666;
 }
