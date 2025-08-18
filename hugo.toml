@@ -3,5 +3,11 @@ languageCode = 'ja-jp'
 title = 'ajalab.github.io'
 theme = 'notes'
 
+[outputs]
+home = ['html', 'rss']
+section = ['html']
+taxonomy = ['html']
+term = ['html']
+
 [markup.goldmark.renderer]
 unsafe = true
