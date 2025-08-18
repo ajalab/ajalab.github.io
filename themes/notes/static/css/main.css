@@ -127,6 +127,10 @@ figure img {
     text-align: right;
 }
 
+.site-header-nav .material-symbols-outlined {
+    vertical-align: bottom;
+}
+
 a {
     color: #1768bf;
     text-decoration: none;
