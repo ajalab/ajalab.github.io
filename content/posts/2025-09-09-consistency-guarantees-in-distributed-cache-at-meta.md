@@ -5,6 +5,10 @@ katex: true
 draft: false
 ---
 
+Japanese version: [Meta における分散キャッシュの一貫性保証](https://zenn.dev/ajalab/articles/consistency-guarantee-in-distributed-cache-at-meta)
+
+----
+
 This article is based on Meta's paper [Skybridge: Bounded Staleness for Distributed Caches](https://www.usenix.org/conference/osdi25/presentation/lyerly) presented at OSDI 25.
 I came across it through Murat Demirbas's blog post [ATC/OSDI’25 Technical Sessions](https://muratbuffalo.blogspot.com/2025/07/atcosdi25-technical-sessions.html).
 
